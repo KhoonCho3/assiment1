@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+    <style>
+        fieldset {
+            width: 25%;
+            background-color: burlywood;
+            padding-left: 70px;
+            padding-top: 20px;
+            margin: auto;
+
+        }
+        input {
+            width: 220px;
+            height: 30px;
+            border-radius: 15px;
+        }
+        button {
+            padding-left: 20px;
+            padding-right: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+        }
+        legend {
+            background-color: rgb(255, 231, 194);
+            font-size: 22px;
+            padding: 10px;
+            border-top-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" novalidate>
+        <fieldset>
+            <legend>Log In Information</legend>
+            <input type="username" value="" name="username" placheholder="Username" required autofocus><br><br>
+            <input type="password" value="" name="psw" placeholder="Password"><br><br>
+            <input type="email" value="" name="email" placeholder="Email"><br><br>
+            <button type="sumit"> Login</button>
+        </fieldset>
+    </form>
+</body>
+</html>
